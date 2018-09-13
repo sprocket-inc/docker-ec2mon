@@ -4,7 +4,8 @@ Amazon CloudWatch Monitoring Scripts for Linux (based on Alpine Linux)
 
 ## Supported tags
 
-- 1.2.1,latest
+- 1.2.2,latest
+- 1.2.1
 
 ## Repo
 

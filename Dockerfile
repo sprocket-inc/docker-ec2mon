@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Minoru Nakata <minoru@sprocket.bz>
 
-ARG VERSION=1.2.1
+ARG VERSION=1.2.2
 
 RUN apk --no-cache --no-progress add coreutils perl perl-datetime perl-lwp-protocol-https perl-uri \
   && wget -q http://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-${VERSION}.zip \
